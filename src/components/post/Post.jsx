@@ -166,7 +166,7 @@ function Post({ post }) {
                     <span className="caption">{textContent}</span>
                 </div>
                 {
-                    imageContent && <img src={imageContent} alt="" className="content-img" />
+                    imageContent && <img src={imageContent} alt="" className="content-img" loading="eager"/>
                 }
             </div>
             <div className="post-bottom">
